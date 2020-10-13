@@ -1,0 +1,21 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    background-color: #ecf2f8;
+}
+
+main {
+    display: grid;
+}
+
+.header {
+    text-align: center;
+    
+}
+
+img {
+    opacity: 0.4;
+  }
+
+  img:hover {
+    opacity: 1.0;
+  }
