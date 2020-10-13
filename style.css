@@ -9,7 +9,7 @@ main {
 
 .header {
     text-align: center;
-    
+      
 }
 
 img {
@@ -19,3 +19,4 @@ img {
   img:hover {
     opacity: 1.0;
   }
+
