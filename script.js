@@ -1,7 +1,7 @@
 let celcius = 0;
 
 
-function getData () {
+function getData() {
     celcius = parseInt(document.getElementById("text_input").value);
   }
 
@@ -20,4 +20,9 @@ function convertFahr() {
 function convertNew() {
     let newton = celcius * (33/100);
     document.getElementById("text_output").innerHTML = `${newton} N`;
+}
+
+function clearAll() {
+    document.getElementById("text_output").innerHTML = "";
+    document.getElementById("text_input").value = "";
 }
