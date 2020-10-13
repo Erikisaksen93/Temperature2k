@@ -1,4 +1,23 @@
-let kelvin = 293;
-const celcius = kelvin - 273;
-const fahrenheit = Math.floor(Math.random(celcius * (9/5) + 32);
-const newton = celcius * (33/100);
+let celcius = 0;
+
+
+function getData () {
+    celcius = parseInt(document.getElementById("text_input").value);
+  }
+
+
+function convertKel() {
+
+    let kelvin = celcius + 273;
+    document.getElementById("text_output").innerHTML = `${kelvin}K`;
+}
+
+function convertFahr() {
+    let fahrenheit = Math.floor(celcius * (9/5) + 32);
+    document.getElementById("text_output").innerHTML = `${fahrenheit}&#xb0;F`;
+}
+
+function convertNew() {
+    let newton = celcius * (33/100);
+    document.getElementById("text_output").innerHTML = `${newton} N`;
+}
